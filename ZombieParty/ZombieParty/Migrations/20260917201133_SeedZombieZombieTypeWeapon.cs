@@ -19,6 +19,7 @@ namespace ZombieParty.Migrations
                 values: new object[,]
                 {
                     { 1, new DateTime(1999, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "This is to cut your friendly zombies", 200m, "https://i.ibb.co/y5nCnXT/dagger-gfce31e967-1920.png", "Leopold", 421m, 21, 3 },
+                    { 2, new DateTime(1999, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "An awesome Stainless Steel Shield", 10m, "https://publicdomainvectors.org/photos/Shield-ClassicMedieval1.png", "Master Shield", 500m, 30, 1 }
                 });
 
             migrationBuilder.InsertData(
